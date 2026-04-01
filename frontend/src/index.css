@@ -1,0 +1,118 @@
+/* Define premium CSS variables */
+:root {
+  --primary-color: #1e3a8a; /* True Dark Navy Blue */
+  --secondary-color: #0284c7; /* Cerulean Medical Blue Accent */
+  --bg-gradient: #f8fafc; /* Crisp Slate 50 Background */
+  --card-bg: rgba(255, 255, 255, 1);
+  --text-dark: #1e3a8a;
+  --transition-speed: 0.3s;
+}
+
+/* Force Bootstrap to strictly use our Premium Theme variables */
+.bg-primary, .bg-dark {
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+  color: var(--secondary-color) !important; /* Use cerulean blue for highlighting text */
+}
+
+/* Global Body Styling */
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  color: var(--text-dark);
+}
+
+/* Make headers look premium */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Card Styling - Solid effect */
+.card {
+  background: var(--card-bg);
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05) !important;
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+/* Slight lift effect on card hover */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(2, 132, 199, 0.1) !important; /* Slight cerulean shadow on hover */
+}
+
+/* Button Styling */
+.btn {
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  transition: all var(--transition-speed) ease !important;
+  padding: 0.5rem 1.5rem !important;
+}
+
+.btn-primary {
+  background: var(--secondary-color) !important; /* Cerulean buttons pop against Dark Navy */
+  border: none !important;
+  box-shadow: 0 4px 6px rgba(2, 132, 199, 0.2);
+  color: white !important;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(2, 132, 199, 0.4);
+  background: #0369a1 !important; /* Darker cerulean on hover */
+}
+
+/* Navbar Tuning */
+.navbar {
+  background: rgba(30, 58, 138, 1) !important; /* Solid True Navy Navbar */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Table Enhancements */
+.table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+th {
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+/* Custom Hero Section for Home */
+.hero-section {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #bae6fd;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}

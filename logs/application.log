@@ -104,3 +104,70 @@
 2026-04-01 09:02:45 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 5
 2026-04-01 09:02:45 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 4
 2026-04-01 09:02:45 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 6
+2026-04-01 11:04:23 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:23 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:23 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:23 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:23 - INFO - com.example.demo.Service.DoctorServiceImpl - Fetching doctor by username: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.DoctorServiceImpl - Fetching doctor by username: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.DoctorServiceImpl - Fetching upcoming appointments for doctor id: 1
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.DoctorServiceImpl - Fetching completed appointments for doctor id: 1
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.DoctorServiceImpl - Fetching upcoming appointments for doctor id: 1
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 5
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 4
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.DoctorServiceImpl - Fetching completed appointments for doctor id: 1
+2026-04-01 11:04:24 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 6
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Extracted username from JWT: Deva
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.SecurityConfig - Loaded user Deva from DB with roles: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - Loaded user details for Deva: roles=[ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:24 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:25 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 6
+2026-04-01 11:04:25 - INFO - com.example.demo.config.JwtRequestFilter - User Deva validated. Setting SecurityContext with authorities: [ROLE_DOCTOR]
+2026-04-01 11:04:25 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 5
+2026-04-01 11:04:25 - INFO - com.example.demo.Service.MedicalRecordServiceImpl - Fetching medical record for appointment id: 4
+2026-04-01 11:05:04 - WARN - com.example.demo.config.JwtRequestFilter - Authorization header missing or does not start with Bearer
+2026-04-01 11:05:04 - WARN - com.example.demo.config.JwtRequestFilter - Authorization header missing or does not start with Bearer
+2026-04-01 11:05:04 - WARN - com.example.demo.config.JwtRequestFilter - Authorization header missing or does not start with Bearer
+2026-04-01 11:05:04 - WARN - com.example.demo.config.JwtRequestFilter - Authorization header missing or does not start with Bearer
+2026-04-01 11:05:05 - WARN - com.example.demo.config.JwtRequestFilter - Authorization header missing or does not start with Bearer
+2026-04-01 11:05:05 - WARN - com.example.demo.config.JwtRequestFilter - Authorization header missing or does not start with Bearer
+2026-04-01 11:05:16 - INFO - org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 11039 ms
